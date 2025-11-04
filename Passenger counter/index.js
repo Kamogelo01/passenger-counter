@@ -3,6 +3,11 @@ let saveBtn = document.getElementById("save-btn")
 let saveEl = document.getElementById("save-el")
 let count = 0
 
+function decrement(){
+  count -= 1
+  countEL.innerText = count
+}
+
 function increment(){
   count += 1
   countEL.innerText = count
